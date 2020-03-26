@@ -1,6 +1,7 @@
 {
   "name": "submodule-lyx",
   "version": "1.0.0",
+  "private": false,
   "description": "submodule",
   "main": "index.js",
   "repository": {
