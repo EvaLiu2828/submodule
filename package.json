@@ -1,0 +1,13 @@
+{
+  "name": "Submodule",
+  "version": "1.0.0",
+  "description": "Submodule",
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvaLiu2828/submodule.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
