@@ -1,11 +1,11 @@
 {
-  "name": "submodule",
+  "name": "submodule-lyx",
   "version": "1.0.0",
   "description": "submodule",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EvaLiu2828/submodule.git"
+    "url": "https://github.com/EvaLiu2828/submodule-lyx.git"
   },
   "author": "",
   "license": "ISC"
