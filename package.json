@@ -1,7 +1,7 @@
 {
-  "name": "Submodule",
+  "name": "submodule",
   "version": "1.0.0",
-  "description": "Submodule",
+  "description": "submodule",
   "main": "index.js",
   "repository": {
     "type": "git",
