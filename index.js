@@ -1,3 +1,10 @@
-import Menu from './src/components/Menu.vue';
+import Menu from './src/components/Menu.vue'
 
-export default Menu
+const HelloWorld = () => {
+    console.log('Hello World')
+}
+
+export { 
+    HelloWorld,
+    Menu
+}

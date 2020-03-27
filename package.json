@@ -1,20 +1,17 @@
 {
   "name": "submodulelyx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "submodulelyx",
-  "main": "package/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/EvaLiu2828/submodule.git"
   },
-  "author": "",
-  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name submodulelyx --dest lib packages/index.js"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
@@ -44,27 +41,13 @@
     "vant": "^2.5.7",
     "vue-template-compiler": "^2.6.11"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {
-      "no-console": "off"
-    },
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
     }
   },
+  "author": "",
+  "license": "ISC",
   "engines": {
     "node": ">=8.9",
     "npm": ">= 3.0.0"
