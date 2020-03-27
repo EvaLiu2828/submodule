@@ -1,6 +1,6 @@
 {
   "name": "submodule-lyx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "submodule",
   "main": "package/index.js",
@@ -13,7 +13,8 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name submodulelyx --dest lib packages/index.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",

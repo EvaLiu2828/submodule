@@ -1,10 +1,10 @@
 <template>
     <div class="eg-button">
-        eg-button
+        EgButton
     </div>
 </template>
 <script>
 export default {
-    class: "eg-button"
+    name: "EgButton"
 }
 </script>
