@@ -33,19 +33,11 @@ module.exports = {
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
     publicPath: defaultSettings.basePath,
-    // outputDir: 'dist',
-    // assetsDir: 'static',
-    // indexPath: 'index.html',
+    outputDir: 'dist',
+    assetsDir: 'static',
+    indexPath: 'index.html',
     filenameHashing: true,
     productionSourceMap: false,
-    // 修改 src 为 examples
-    pages: {
-        index: {
-            entry: 'examples/main.js',
-            template: 'public/index.html',
-            filename: 'index.html'
-        }
-    },    
     devServer: {
         port: port,
         open: true, // 项目启动时是否自动打开浏览器 或 通过 npm 命令参数 --open 设置
@@ -136,16 +128,5 @@ module.exports = {
             .use('url-loader')
             .loader('url-loader')
             .tap(options => Object.assign(options, { limit: 10240 }))
-        config.module
-            .rule('js')
-            .include
-                .add(__dirname + 'packages')
-                .end()
-            .use('babel')
-                .loader('babel-loader')
-                .tap(options => {
-                    // 修改它的选项...
-                    return options
-                })
     }
 }

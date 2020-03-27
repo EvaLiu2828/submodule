@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'submodule-lyx',
+  title: 'submodulelyx',
   api: {
     base_api: 'https://xxx.xxx.com/admin',
     common_api: 'https://xxx.xxx.com/common'
