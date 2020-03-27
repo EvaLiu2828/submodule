@@ -3,11 +3,69 @@
   "version": "1.0.1",
   "private": false,
   "description": "submodule",
-  "main": "index.js",
+  "main": "package/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/EvaLiu2828/submodule-lyx.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "autoprefixer": "^9.7.4",
+    "core-js": "^3.6.4",
+    "jquery": "^3.4.1",
+    "postcss-loader": "^3.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-import": "^1.13.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.13.1",
+    "postcss-pxtorem": "^5.1.1",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "vant": "^2.5.7",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  }
 }
